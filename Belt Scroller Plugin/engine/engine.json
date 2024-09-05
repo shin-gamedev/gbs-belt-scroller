@@ -1,0 +1,31 @@
+{
+  "version": "4.0.0-e0",
+  "fields": [
+    {
+      "key": "toggle_animation",
+      "label": "Toggle Up and Down Animation",
+      "group": "Belt Scroller",
+      "type": "slider",
+      "cType": "UBYTE",
+      "defaultValue": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "key": "toggle_movement",
+      "label": "Toggle Default Movement",
+      "group": "Belt Scroller",
+      "type": "slider",
+      "cType": "UBYTE",
+      "defaultValue": 0,
+      "min": 0,
+      "max": 1
+    }
+  ],
+  "sceneTypes": [
+    {
+      "key": "beltscroller",
+      "label": "Belt Scroller"
+    }
+  ]
+}
